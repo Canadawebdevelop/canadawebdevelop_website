@@ -43,7 +43,7 @@ ourAmazingWorkMenu.forEach( item =>{
     item.addEventListener('click', function () {
         ourAmazingWorkContent.forEach(function(elemArray){
             elemArray.style.display='none';
-            if(elemArray.children[1].children[2].textContent.toLowerCase()===event.currentTarget.textContent.toLowerCase()){
+            if(elemArray.children[1].children[1].textContent.toLowerCase()===event.currentTarget.textContent.toLowerCase()){
                 elemArray.style.display='flex';
             }else if('all'===event.currentTarget.textContent.toLowerCase()) {
                 elemArray.style.display = 'flex';
