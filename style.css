@@ -107,7 +107,7 @@ header{
     transform: rotate(90deg);
     margin-left: -355px;
 }
-.top_header_container:hover .top_header_menu_logo::after {
+.top_header:hover .top_header_menu_logo::after {
     width: px;
     border-right: 5px solid transparent;
     border-left: 5px solid transparent;
@@ -120,7 +120,7 @@ header{
     transform: rotate(90deg);
     margin-left: -155px;
  }
-.top_header_container:hover .top_header_menu_logo::before{
+.top_header:hover .top_header_menu_logo::before{
     width: 28px;
     /* border-bottom: 35px solid #18cfab;
     border-right: 3px solid transparent;
@@ -154,7 +154,7 @@ header{
     font-size: 28px;
     padding-right: 24px;
 }
-.top_header_container:hover .top_header_menu_text::before{
+.top_header:hover .top_header_menu_text::before{
     visibility:visible;
 }
 
@@ -163,7 +163,7 @@ header{
     display: inline-block;
     width: 669px;
     position: absolute;
-    top: calc(50% - 5px);
+    top: calc(50% - 8px);
     left: 350px;
 }
 .top_header_menu_drop_part li{
@@ -172,7 +172,7 @@ header{
     color: #18cfab;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-size: 21px;
     margin-right: 17px;
     font-weight: bold;
     vertical-align: top;
